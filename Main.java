@@ -13,8 +13,8 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        String[] players1_Name = new String[6];
-        String[] players2_Name = new String[6];
+        String[] players1_Name = new String[11];
+        String[] players2_Name = new String[11];
         System.out.println("Enter Team1 players name: ");
         for (int i = 0; i < players1_Name.length; i++) {
             players1_Name[i] = input.nextLine();
